@@ -1,4 +1,9 @@
-for(let i=0;i<20;i++){
-   var h1 = document.createElement("h1");
-   
+var a = 22;
+switch(a){
+   case 20:
+      console.log(a);
+      break;
+   case 22:
+      console.log("Supérieur à 20");
+      break;
 }
