@@ -1,0 +1,11 @@
+/*
+42002965 ANDRIANARISOLOTOANDRO Aoron
+*/
+header{ display: flex;  background-color: red;}
+header div{ background-color: gray; }
+
+body{ margin: 0px;}
+
+div div{
+   text-indent: 5%;
+}
