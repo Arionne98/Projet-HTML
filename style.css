@@ -1,11 +1,50 @@
 /*
-42002965 ANDRIANARISOLOTOANDRO Aoron
+Projet HTML:
+Etudiant: 42002965 ANDRIANARISOLOTOANDRO Aoron
+Lien vers la page html: ./index.html
 */
-header{ display: flex;  background-color: red;}
-header div{ background-color: gray; }
-
-body{ margin: 0px;}
-
-div div{
-   text-indent: 5%;
+header div ul li{
+   margin-right: 10%;
 }
+@font-face {
+   font-family: 'Lexend';
+   src: url('font/Lexend/Lexend-VariableFont_wght.ttf');
+}
+
+body{margin: 0;font-family: 'Lexend'}
+
+@media screen and (max-width: 600px){
+   body{
+      background-color: aquamarine;
+   }
+}
+
+#compile, #interprete{margin-left: 5%;}
+#deuxDimension, #troisDimension{margin-left: 5%;}
+#deuxDimensionHtml,#deuxDimensionSansHtml{margin-left: 10%;}
+
+.check:checked ~ .contenu{
+   display: block;
+}
+.check{
+   color: blue;
+}
+
+.contenu{display: none;margin-left: 5%;}
+.contenu p{margin: 0;}
+
+#rpgmaker, #phaser{
+   width: 30%;
+   height: 50%;
+   opacity: 1;
+   transition: opacity 2s;
+}
+
+#rpgmaker:hover, #phaser:hover{opacity: 0.1;}
+
+@keyframes animationCustom {
+   from{background-color: gray;}
+   to {background-color: lightgray;}
+}
+
+header{background-color: gray;animation: animationCustom 5s infinite}
