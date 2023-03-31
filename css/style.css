@@ -1,0 +1,63 @@
+/*
+Projet HTML:
+Etudiant: 42002965 ANDRIANARISOLOTOANDRO Aoron
+Lien vers la page html: ./index.html
+*/
+
+body{
+   margin: 0px;
+   padding: 0px;
+   background-color: rgb(84, 84, 84);
+}
+
+nav{background-color: #FCFF80;width: 100%;}
+
+#menu{
+   list-style-type: none;
+   display: flex;
+   margin: 0px;
+}
+
+#logo{
+   width: 120px;
+   height: 120px;
+   margin-right: 10px;
+   transition: opacity 0.5s;
+   margin: 0px;
+}
+
+#logo:hover{
+   opacity: 0.3;
+}
+
+#parametre{
+   width: 60px;
+   height: 60px;
+   opacity: 0.5;
+   padding: 25px;
+   position: absolute;
+   right: 0px;
+   margin-right: 20px;
+   margin-top: 5px;
+   rotate: 0deg;
+   transition: rotate 2s;
+}
+
+#parametre:active{
+   opacity: 0.3;
+   rotate: 360deg;
+   cursor: pointer;
+}
+
+#container{
+   background-color: #FF0000;
+   width: 50%;
+   padding: 8%;
+}
+
+#divi{
+   background-color: #00FF00;
+   width: 50%;
+   text-align: center;
+   border: 5px;
+}
